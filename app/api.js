@@ -5,7 +5,7 @@ let fileProtocolWssUrl = null;
 try {
   fileProtocolWssUrl = localStorage.getItem('wssURL');
 } catch (e) {
-  // NOOP
+  // EMPTY
 }
 if (!fileProtocolWssUrl) {
   fileProtocolWssUrl = 'wss://send.firefox.com/api/ws';
